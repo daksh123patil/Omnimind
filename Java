@@ -1,0 +1,4 @@
+setInterval(() => {
+  const el = document.querySelector('a[href*="base44"]');
+  if (el) el.style.display = 'none';
+}, 500);
